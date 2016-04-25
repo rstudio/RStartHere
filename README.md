@@ -4,6 +4,8 @@ RStartHere
 
 A guide to some of the most useful R Packages that we know about, organized by their role in data science.
 
+[Click here to suggest packages.](https://github.com/rstudio/RStartHere/edit/master/README.md)
+
 Data Science Workflow
 ---------------------
 

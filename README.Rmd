@@ -5,6 +5,8 @@ output: github_document
 # RStartHere
 A guide to some of the most useful R Packages that we know about, organized by their role in data science.
 
+[Click here to suggest packages.](https://github.com/rstudio/RStartHere/edit/master/README.md)
+
 
 ## Data Science Workflow 
 Each data science project is different, but each follows the same general steps. You:
@@ -169,3 +171,4 @@ These packages contain interesting data to examine.
 * stationaRy
 * ggenealogy
 * 15-state-of-the-union
+
