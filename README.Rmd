@@ -19,7 +19,7 @@ Each data science project is different, but each follows the same general steps.
 3. Understand your data by iteratively 
     a. [visualizing](#visualize)
     b. [tranforming](#transform) and 
-    c. [modeling](#model) your data
+    c. [modeling](#modelinfer) your data
 4. [Infer](#infer) how your understanding applies to other data sets (_including future data, i.e. predictions_)
 5. [Communicate](#communicate) your results to an audience, or
 6. [Automate](#automate) your analysis for easy reuse
@@ -28,7 +28,9 @@ Each data science project is different, but each follows the same general steps.
 Below we list the most useful R packages that we know of for each step.
 
 ## Import
+These packages help you import data into R and save data.
 
+* feather
 * readr
 * readxl
 * haven
@@ -48,12 +50,15 @@ Below we list the most useful R packages that we know of for each step.
 * sparkr
 
 ## Tidy
+These packages help you wrangle your data into a form that is easy to analyze in R.
 
 * tidyr
-* reshape2
+* dplyr
 * fortify
+* broom
 
 ## Visualize
+These packages help you visualize your data.
 
 * bigvis
 * ggplot2
@@ -82,6 +87,7 @@ Below we list the most useful R packages that we know of for each step.
 * MetricsGraphics
 
 ## Transform
+These packages help you transform your data into new types of data.
 
 * dplyr
 * stringr
@@ -90,8 +96,10 @@ Below we list the most useful R packages that we know of for each step.
 * plyr
 * tibble
 
-### Model
+## Model/Infer
+These packages help you build models and make inferences. Often the same packages will focus on both topics.
 
+* R (base R)
 * meifly
 * classify
 * clusterfly
@@ -100,9 +108,8 @@ Below we list the most useful R packages that we know of for each step.
 * caret
 * glmnet
 
-## Infer
-
 ## Communicate
+These packages help you communicate the results of data science to your audiences.
 
 * rmarkdown
 * knitr
@@ -114,6 +121,7 @@ Below we list the most useful R packages that we know of for each step.
 * staticdocs
 
 ## Automate
+These packages help you create data science products that automate your analyses.
 
 * shiny
 * shinydashboards
@@ -129,6 +137,7 @@ Below we list the most useful R packages that we know of for each step.
 * rstudioapi
 
 ### Program
+These packages make it easier to program with the R language.
 
 * RStudio IDE
 * devtools
@@ -153,7 +162,7 @@ Below we list the most useful R packages that we know of for each step.
 * httpuv
 
 ## Data 
-These packages contain interesting data to examine.
+These packages contain data sets to use as training data or toy examples.
 
 * babynames
 * neiss

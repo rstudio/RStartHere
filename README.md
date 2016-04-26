@@ -18,7 +18,7 @@ Each data science project is different, but each follows the same general steps.
 3.  Understand your data by iteratively
     1.  [visualizing](#visualize)
     2.  [tranforming](#transform) and
-    3.  [modeling](#model) your data
+    3.  [modeling](#modelinfer) your data
 
 4.  [Infer](#infer) how your understanding applies to other data sets (*including future data, i.e. predictions*)
 5.  [Communicate](#communicate) your results to an audience, or
@@ -30,6 +30,9 @@ Below we list the most useful R packages that we know of for each step.
 Import
 ------
 
+These packages help you import data into R and save data.
+
+-   feather
 -   readr
 -   readxl
 -   haven
@@ -51,12 +54,17 @@ Import
 Tidy
 ----
 
+These packages help you wrangle your data into a form that is easy to analyze in R.
+
 -   tidyr
--   reshape2
+-   dplyr
 -   fortify
+-   broom
 
 Visualize
 ---------
+
+These packages help you visualize your data.
 
 -   bigvis
 -   ggplot2
@@ -87,6 +95,8 @@ Visualize
 Transform
 ---------
 
+These packages help you transform your data into new types of data.
+
 -   dplyr
 -   stringr
 -   lubridate
@@ -94,8 +104,12 @@ Transform
 -   plyr
 -   tibble
 
-### Model
+Model/Infer
+-----------
 
+These packages help you build models and make inferences. Often the same packages will focus on both topics.
+
+-   R (base R)
 -   meifly
 -   classify
 -   clusterfly
@@ -104,11 +118,10 @@ Transform
 -   caret
 -   glmnet
 
-Infer
------
-
 Communicate
 -----------
+
+These packages help you communicate the results of data science to your audiences.
 
 -   rmarkdown
 -   knitr
@@ -121,6 +134,8 @@ Communicate
 
 Automate
 --------
+
+These packages help you create data science products that automate your analyses.
 
 -   shiny
 -   shinydashboards
@@ -136,6 +151,8 @@ Automate
 -   rstudioapi
 
 ### Program
+
+These packages make it easier to program with the R language.
 
 -   RStudio IDE
 -   devtools
@@ -162,7 +179,7 @@ Automate
 Data
 ----
 
-These packages contain interesting data to examine.
+These packages contain data sets to use as training data or toy examples.
 
 -   babynames
 -   neiss
