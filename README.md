@@ -127,11 +127,13 @@ Model/Infer
 
 These packages help you build models and make inferences. Often the same packages will focus on both topics.
 
--   [R](http://cran.r-project.org)
--   [broom](http://varianceexplained.org/r/broom-intro/)
+-   stats
+-   mgcv
 -   lme4
+-   [broom](http://varianceexplained.org/r/broom-intro/)
 -   [caret](http://topepo.github.io/caret/index.html)
 -   [glmnet](https://web.stanford.edu/~hastie/glmnet/glmnet_alpha.html)
+-   [mosaic](http://mosaic-web.org/)
 
 Communicate
 -----------
