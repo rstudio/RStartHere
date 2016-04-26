@@ -38,7 +38,7 @@ Import
 -   xml2
 -   webreadr
 -   cellranger
--   DBL
+-   DBI
 -   RMySQL
 -   RPostgres
 -   RSQLite
@@ -101,6 +101,7 @@ Transform
 -   broom
 -   lme4
 -   caret
+-   glmnet
 
 Infer
 -----

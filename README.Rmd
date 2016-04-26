@@ -37,7 +37,7 @@ Below we list the most useful R packages that we know of for each step.
 * xml2
 * webreadr
 * cellranger
-* DBL
+* DBI
 * RMySQL
 * RPostgres
 * RSQLite
@@ -97,6 +97,7 @@ Below we list the most useful R packages that we know of for each step.
 * broom
 * lme4
 * caret
+* glmnet
 
 ## Infer
 
