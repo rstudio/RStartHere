@@ -32,170 +32,169 @@ Import
 
 These packages help you import data into R and save data.
 
--   feather
--   readr
--   readxl
--   haven
--   httr
--   rvest
--   xml2
--   webreadr
--   cellranger
--   DBI
--   RMySQL
--   RPostgres
--   RSQLite
--   bigrquery
--   dplyr
--   PivotalR
+-   [feather](https://blog.rstudio.org/2016/03/29/feather/)
+-   [readr](https://blog.rstudio.org/2015/10/28/readr-0-2-0/)
+-   [readxl](https://blog.rstudio.org/2015/04/15/readxl-0-1-0/)
+-   [cellranger](https://github.com/jennybc/cellranger)
+-   [haven](https://blog.rstudio.org/2015/03/04/haven-0-1-0/)
+-   [httr](https://blog.rstudio.org/2016/02/02/httr-1-1-0/)
+-   [rvest](https://blog.rstudio.org/2014/11/24/rvest-easy-web-scraping-with-r/)
+-   [xml2](https://github.com/hadley/xml2)
+-   [webreadr](https://cran.r-project.org/web/packages/webreadr/vignettes/Introduction.html)
 -   RCurl
--   sparkr
+-   [DBI](https://github.com/rstats-db/DBI)
+    -   [RMySQL](https://github.com/rstats-db/RMySQL)
+    -   [RPostgres](https://github.com/rstats-db/RPostgres)
+    -   [RSQLite](https://github.com/rstats-db/RSQLite)
+    -   [bigrquery](https://github.com/rstats-db/bigrquery)
+-   [PivotalR](https://github.com/pivotalsoftware/PivotalR)
+-   [sparkr](https://spark.apache.org/docs/latest/sparkr.html)
+-   [dplyr](https://github.com/hadley/dplyr)
 
 Tidy
 ----
 
 These packages help you wrangle your data into a form that is easy to analyze in R.
 
--   tidyr
--   dplyr
+-   [tidyr](https://github.com/hadley/tidyr)
+-   [dplyr](https://github.com/hadley/dplyr)
 -   fortify
--   broom
+-   [broom](http://varianceexplained.org/r/broom-intro/)
 
 Visualize
 ---------
 
 These packages help you visualize your data.
 
--   bigvis
--   ggplot2
--   scales
--   ggthemes
--   extrafont
+-   [ggplot2](http://docs.ggplot2.org/current/)
+    -   scales
+    -   [ggthemes](https://github.com/jrnold/ggthemes)
+    -   [ggmap](https://github.com/dkahle/ggmap)
+-   [extrafont](https://github.com/wch/extrafont)
 -   lvplot
--   ggmap
--   ggvis
--   ggstat
--   gggeom
--   manipulate
--   htmlwidgets
--   leaflet
--   dygraphs
--   plotly
--   rbokeh
--   Highcharter
--   visNetwork
--   networkD3
--   d3heatmap
--   rCharts
--   threejs
--   rglwidget
--   DiagrammeR
--   MetricsGraphics
+-   [ggvis](http://ggvis.rstudio.com/)
+    -   ggstat
+    -   gggeom
+-   [bigvis](https://github.com/hadley/bigvis)
+-   [manipulate](https://support.rstudio.com/hc/en-us/articles/200551906-Interactive-Plotting-with-Manipulate)
+-   [htmlwidgets](http://www.htmlwidgets.org/)
+    -   [leaflet](http://rstudio.github.io/leaflet/)
+    -   [dygraphs](http://rstudio.github.io/dygraphs)
+    -   [plotly](https://plot.ly/r/)
+    -   [rbokeh](http://hafen.github.io/rbokeh)
+    -   [Highcharter](http://jkunst.com/highcharter/)
+    -   [visNetwork](http://dataknowledge.github.io/visNetwork)
+    -   [networkD3](http://christophergandrud.github.io/networkD3/)
+    -   [d3heatmap](https://github.com/rstudio/d3heatmap)
+    -   [DT](http://rstudio.github.io/DT/)
+    -   [threejs](https://github.com/bwlewis/rthreejs)
+    -   [rglwidget](http://cran.at.r-project.org/web/packages/rglwidget/index.html)
+    -   [DiagrammeR](http://rich-iannone.github.io/DiagrammeR/)
+    -   [MetricsGraphics](http://hrbrmstr.github.io/metricsgraphics/)
+-   [rCharts](http://rcharts.io/)
 
 Transform
 ---------
 
 These packages help you transform your data into new types of data.
 
--   dplyr
--   stringr
--   lubridate
--   strptimer
--   plyr
--   tibble
+-   [dplyr](https://github.com/hadley/dplyr)
+-   [stringr](https://blog.rstudio.org/2015/05/05/stringr-1-0-0/)
+-   [lubridate](https://cran.r-project.org/web/packages/lubridate/vignettes/lubridate.html)
+-   [plyr](https://github.com/hadley/plyr)
+-   [tibble](https://github.com/hadley/tibble)
 
 Model/Infer
 -----------
 
 These packages help you build models and make inferences. Often the same packages will focus on both topics.
 
--   R (base R)
--   meifly
--   classify
--   clusterfly
--   broom
+-   R ([base R](http://cran.r-project.org))
+-   [meifly](http://had.co.nz/meifly/)
+    -   [classifly](http://had.co.nz/classifly/)
+    -   [clusterfly](http://had.co.nz/clusterfly/)
+-   [broom](http://varianceexplained.org/r/broom-intro/)
 -   lme4
--   caret
--   glmnet
+-   [caret](http://topepo.github.io/caret/index.html)
+-   [glmnet](https://web.stanford.edu/~hastie/glmnet/glmnet_alpha.html)
 
 Communicate
 -----------
 
 These packages help you communicate the results of data science to your audiences.
 
--   rmarkdown
--   knitr
--   flexdashboard
--   bookdown
--   rticles
--   tufte
--   DT
--   staticdocs
+-   [rmarkdown](http://rmarkdown.rstudio.com/)
+-   [knitr](http://yihui.name/knitr/)
+-   [flexdashboard](http://rstudio.github.io/flexdashboard/)
+-   [bookdown](https://bookdown.org/)
+-   [rticles](https://github.com/rstudio/rticles)
+-   [tufte](http://rstudio.github.io/tufte/)
+-   [DT](http://rstudio.github.io/DT/)
+-   [staticdocs](http://hadley.github.io/staticdocs/)
 
 Automate
 --------
 
 These packages help you create data science products that automate your analyses.
 
--   shiny
--   shinydashboards
--   shinythemes
--   shinySignals
--   shinyapps
--   shinyAce
--   shinyjs
--   miniUI
--   rsconnect
--   plumber
+-   [shiny](http://shiny.rstudio.com/)
+    -   [shinydashboard](http://rstudio.github.io/shinydashboard/)
+    -   [shinythemes](http://rstudio.github.io/shinythemes/)
+    -   shinySignals
+    -   [shinyAce](http://trestletech.github.io/shinyAce/)
+    -   [shinyjs](https://github.com/daattali/shinyjs/blob/master/README.md)
+    -   [miniUI](https://github.com/rstudio/miniUI)
+    -   [shinyapps.io](https://www.shinyapps.io/)
+    -   [Shiny Server Open Source](https://www.rstudio.com/products/shiny/shiny-server/)
+    -   [Shiny Server Pro](https://www.rstudio.com/products/shiny/shiny-server/)
+-   [rsconnect](http://shiny.rstudio.com/articles/shinyapps.html)
+-   [plumber](http://plumber.trestletech.com/)
 -   countdown
--   rstudioapi
+-   [rstudioapi](https://github.com/rstudio/rstudioapi)
 
 ### Program
 
 These packages make it easier to program with the R language.
 
--   RStudio IDE
--   devtools
--   magrittr
--   packrat
--   testthat
--   assertthat
--   roxygen2
--   lazyeval
--   purrr
--   monads
--   memoise
--   hadladdin
--   profr
--   profvis
--   lineprof
--   pryr
--   rcpp
--   R6
+-   [RStudio Desktop IDE](https://www.rstudio.com/products/rstudio/#Desktop)
+-   [RStudio Server Open Source](https://www.rstudio.com/products/rstudio/#Server)
+-   [RStudio Server Professional](https://www.rstudio.com/products/rstudio/#Server)
+-   [devtools](https://github.com/hadley/devtools)
+-   [magrittr](https://github.com/smbache/magrittr)
+-   [packrat](https://rstudio.github.io/packrat/)
+-   [testthat](https://journal.r-project.org/archive/2011-1/RJournal_2011-1_Wickham.pdf)
+-   [assertthat](https://github.com/hadley/assertthat)
+-   [roxygen2](https://github.com/klutometis/roxygen)
+-   [lazyeval](https://github.com/hadley/lazyeval)
+-   [purrr](https://github.com/hadley/purrr)
+-   [memoise](https://blog.rstudio.org/2016/02/02/memoise-1-0-0/)
+-   [profvis](https://github.com/rstudio/profvis)
+-   [pryr](https://github.com/hadley/pryr)
+-   [rcpp](http://www.rcpp.org/)
+-   [R6](https://github.com/wch/R6)
 -   htmltools
 -   vtest
--   httpuv
+-   [httpuv](https://github.com/rstudio/httpuv)
 
 Data
 ----
 
 These packages contain data sets to use as training data or toy examples.
 
--   babynames
--   neiss
--   yrbss
--   nycflights13
--   hflights
--   USAboundaries
--   rworldmap
--   usdanutrients
--   fueleconomy
--   nasaweather
--   mexico-mortality
--   data-movies
--   pop-flows
--   data-housing-crisis
--   gun-sales
--   stationaRy
--   ggenealogy
--   15-state-of-the-union
+-   [babynames](https://github.com/hadley/babynames)
+-   [neiss](https://github.com/hadley/neiss)
+-   [yrbss](https://github.com/hadley/yrbss)
+-   [nycflights13](https://github.com/hadley/nycflights13)
+-   [hflights](https://github.com/hadley/hflights)
+-   [USAboundaries](https://github.com/ropensci/USAboundaries)
+-   [rworldmap](https://github.com/AndySouth/rworldmap)
+-   [usdanutrients](https://github.com/hadley/usdanutrients)
+-   [fueleconomy](https://github.com/hadley/fueleconomy)
+-   [nasaweather](https://github.com/hadley/nasaweather)
+-   [mexico-mortality](https://github.com/hadley/mexico-mortality)
+-   [data-movies](https://github.com/hadley/data-movies)
+-   [pop-flows](https://github.com/hadley/pop-flows)
+-   [data-housing-crisis](https://github.com/hadley/data-housing-crisis)
+-   [gun-sales](https://github.com/NYTimes/gunsales)
+-   [stationaRy](https://github.com/rich-iannone/stationaRy)
+-   [ggenealogy](https://github.com/hadley/ggenealogy)
