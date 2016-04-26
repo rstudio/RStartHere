@@ -39,14 +39,12 @@ These packages help you import data into R and save data.
 * [rvest](https://blog.rstudio.org/2014/11/24/rvest-easy-web-scraping-with-r/)
 * [xml2](https://github.com/hadley/xml2)
 * [webreadr](https://cran.r-project.org/web/packages/webreadr/vignettes/Introduction.html)
-* RCurl
 * [DBI](https://github.com/rstats-db/DBI)
     + [RMySQL](https://github.com/rstats-db/RMySQL)
     + [RPostgres](https://github.com/rstats-db/RPostgres)
     + [RSQLite](https://github.com/rstats-db/RSQLite)
     + [bigrquery](https://github.com/rstats-db/bigrquery)
 * [PivotalR](https://github.com/pivotalsoftware/PivotalR)
-* [sparkr](https://spark.apache.org/docs/latest/sparkr.html)
 * [dplyr](https://github.com/hadley/dplyr)
 
 ## Tidy
@@ -54,8 +52,8 @@ These packages help you wrangle your data into a form that is easy to analyze in
 
 * [tidyr](https://github.com/hadley/tidyr)
 * [dplyr](https://github.com/hadley/dplyr)
-* fortify
 * [broom](http://varianceexplained.org/r/broom-intro/)
+* [zoo](https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=r%20zoo)
 
 ## Visualize
 These packages help you visualize your data.
@@ -64,12 +62,12 @@ These packages help you visualize your data.
     + scales
     + [ggthemes](https://github.com/jrnold/ggthemes)
     + [ggmap](https://github.com/dkahle/ggmap)
+* [lattice](http://lattice.r-forge.r-project.org/)
+* [rgl](https://cran.r-project.org/web/packages/rgl/vignettes/rgl.html)
 * [extrafont](https://github.com/wch/extrafont)
-* lvplot
 * [ggvis](http://ggvis.rstudio.com/)
     + ggstat
     + gggeom
-* [bigvis](https://github.com/hadley/bigvis)
 * [manipulate](https://support.rstudio.com/hc/en-us/articles/200551906-Interactive-Plotting-with-Manipulate)
 * [htmlwidgets](http://www.htmlwidgets.org/)
     + [leaflet](http://rstudio.github.io/leaflet/)
@@ -86,23 +84,22 @@ These packages help you visualize your data.
     + [DiagrammeR](http://rich-iannone.github.io/DiagrammeR/)
     + [MetricsGraphics](http://hrbrmstr.github.io/metricsgraphics/)
 * [rCharts](http://rcharts.io/)
+* [quantmod](http://www.quantmod.com/)
 
 ## Transform
 These packages help you transform your data into new types of data.
 
 * [dplyr](https://github.com/hadley/dplyr)
+* [data.table](https://github.com/Rdatatable/data.table/wiki)
 * [stringr](https://blog.rstudio.org/2015/05/05/stringr-1-0-0/)
 * [lubridate](https://cran.r-project.org/web/packages/lubridate/vignettes/lubridate.html)
-* [plyr](https://github.com/hadley/plyr)
 * [tibble](https://github.com/hadley/tibble)
+* [xts](http://r-forge.r-project.org/projects/xts)
 
 ## Model/Infer
 These packages help you build models and make inferences. Often the same packages will focus on both topics.
 
-* R ([base R](http://cran.r-project.org))
-* [meifly](http://had.co.nz/meifly/)
-    + [classifly](http://had.co.nz/classifly/)
-    + [clusterfly](http://had.co.nz/clusterfly/)
+* [R](http://cran.r-project.org)
 * [broom](http://varianceexplained.org/r/broom-intro/)
 * lme4
 * [caret](http://topepo.github.io/caret/index.html)
@@ -118,7 +115,6 @@ These packages help you communicate the results of data science to your audience
 * [rticles](https://github.com/rstudio/rticles)
 * [tufte](http://rstudio.github.io/tufte/)
 * [DT](http://rstudio.github.io/DT/)
-* [staticdocs](http://hadley.github.io/staticdocs/)
 
 ## Automate
 These packages help you create data science products that automate your analyses.
@@ -126,7 +122,6 @@ These packages help you create data science products that automate your analyses
 * [shiny](http://shiny.rstudio.com/)
     + [shinydashboard](http://rstudio.github.io/shinydashboard/)
     + [shinythemes](http://rstudio.github.io/shinythemes/)
-    + shinySignals
     + [shinyAce](http://trestletech.github.io/shinyAce/)
     + [shinyjs](https://github.com/daattali/shinyjs/blob/master/README.md)
     + [miniUI](https://github.com/rstudio/miniUI)
@@ -148,22 +143,17 @@ These packages make it easier to program with the R language.
 * [magrittr](https://github.com/smbache/magrittr)
 * [packrat](https://rstudio.github.io/packrat/)
 * [testthat](https://journal.r-project.org/archive/2011-1/RJournal_2011-1_Wickham.pdf)
-* [assertthat](https://github.com/hadley/assertthat)
 * [roxygen2](https://github.com/klutometis/roxygen)
-* [lazyeval](https://github.com/hadley/lazyeval)
 * [purrr](https://github.com/hadley/purrr)
-* [memoise](https://blog.rstudio.org/2016/02/02/memoise-1-0-0/)
 * [profvis](https://github.com/rstudio/profvis)
-* [pryr](https://github.com/hadley/pryr)
 * [rcpp](http://www.rcpp.org/)
 * [R6](https://github.com/wch/R6)
 * htmltools
-* vtest
-* [httpuv](https://github.com/rstudio/httpuv)
 
 ## Data 
 These packages contain data sets to use as training data or toy examples.
 
+* datasets
 * [babynames](https://github.com/hadley/babynames)
 * [neiss](https://github.com/hadley/neiss)
 * [yrbss](https://github.com/hadley/yrbss)
@@ -182,3 +172,4 @@ These packages contain data sets to use as training data or toy examples.
 * [stationaRy](https://github.com/rich-iannone/stationaRy)
 * [ggenealogy](https://github.com/hadley/ggenealogy)
 
+You can learn more about packages in R with the [CRAN task views](https://cran.r-project.org/web/views/).
