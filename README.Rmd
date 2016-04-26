@@ -45,6 +45,7 @@ Below we list the most useful R packages that we know of for each step.
 * dplyr
 * PivotalR
 * RCurl
+* sparkr
 
 ## Tidy
 

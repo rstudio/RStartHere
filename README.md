@@ -46,6 +46,7 @@ Import
 -   dplyr
 -   PivotalR
 -   RCurl
+-   sparkr
 
 Tidy
 ----
