@@ -4,7 +4,7 @@ RStartHere
 
 A guide to some of the most useful R Packages that we know about, organized by their role in data science.
 
-[Click here to suggest packages.](https://github.com/rstudio/RStartHere/edit/master/README.md)
+[Click here to suggest packages.](https://github.com/rstudio/RStartHere/edit/master/README.Rmd)
 
 Data Science Workflow
 ---------------------
@@ -15,17 +15,17 @@ Each data science project is different, but each follows the same general steps.
 
 1.  [Import](#import) your data into R
 2.  [Tidy](#tidy) it
-3.  Try to understand your data by iteratively
+3.  Understand your data by iteratively
     1.  [visualizing](#visualize)
     2.  [tranforming](#transform) and
     3.  [modeling](#model) your data
 
-4.  [Infer](#infer) how your insights apply to other data sets (*including future data, i.e. predictions*)
+4.  [Infer](#infer) how your understanding applies to other data sets (*including future data, i.e. predictions*)
 5.  [Communicate](#communicate) your results to an audience, or
 6.  [Automate](#automate) your analysis for easy reuse
-7.  [Program](#program) the whole way through, since you do each of these things on a computer.
+7.  [Program](#program) the whole way through, since you do each of these things on a computer
 
-Below we list the most useful R packages that we know of for each of these steps.
+Below we list the most useful R packages that we know of for each step.
 
 Import
 ------

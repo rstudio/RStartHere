@@ -16,16 +16,16 @@ Each data science project is different, but each follows the same general steps.
 
 1. [Import](#import) your data into R
 2. [Tidy](#tidy) it
-3. Try to understand your data by iteratively 
+3. Understand your data by iteratively 
     a. [visualizing](#visualize)
     b. [tranforming](#transform) and 
     c. [modeling](#model) your data
-4. [Infer](#infer) how your insights apply to other data sets (_including future data, i.e. predictions_)
+4. [Infer](#infer) how your understanding applies to other data sets (_including future data, i.e. predictions_)
 5. [Communicate](#communicate) your results to an audience, or
 6. [Automate](#automate) your analysis for easy reuse
-7. [Program](#program) the whole way through, since you do each of these things on a computer.
+7. [Program](#program) the whole way through, since you do each of these things on a computer
 
-Below we list the most useful R packages that we know of for each of these steps.
+Below we list the most useful R packages that we know of for each step.
 
 ## Import
 
