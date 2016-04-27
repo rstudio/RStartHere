@@ -48,6 +48,7 @@ These packages help you import data into R and save data.
     -   [bigrquery](https://github.com/rstats-db/bigrquery)
 -   [PivotalR](https://github.com/pivotalsoftware/PivotalR)
 -   [dplyr](https://github.com/hadley/dplyr)
+-   gdata
 
 Tidy
 ----
@@ -121,6 +122,7 @@ These packages help you transform your data into new types of data.
 -   [lubridate](https://cran.r-project.org/web/packages/lubridate/vignettes/lubridate.html)
 -   [tibble](https://github.com/hadley/tibble)
 -   [xts](http://r-forge.r-project.org/projects/xts)
+-   vtreat
 
 Model/Infer
 -----------
@@ -134,6 +136,15 @@ These packages help you build models and make inferences. Often the same package
 -   [caret](http://topepo.github.io/caret/index.html)
 -   [glmnet](https://web.stanford.edu/~hastie/glmnet/glmnet_alpha.html)
 -   [mosaic](http://mosaic-web.org/)
+-   gbm
+-   xgboost
+-   randomForest
+-   ranger
+-   h2o
+-   kernlab
+-   nlme
+-   ROCR
+-   pROC
 
 Communicate
 -----------
@@ -187,6 +198,10 @@ These packages make it easier to program with the R language.
 -   [rcpp](http://www.rcpp.org/)
 -   [R6](https://github.com/wch/R6)
 -   htmltools
+-   snow
+-   Rth
+-   MKL by Microsoft/Revolution Analytics
+-   MRS by Microsoft/Revolution Analytics
 
 Data
 ----
