@@ -204,7 +204,7 @@ These packages contain data sets to use as training data or toy examples.
 * [fueleconomy](https://github.com/hadley/fueleconomy)
 * [nasaweather](https://github.com/hadley/nasaweather)
 * [mexico-mortality](https://github.com/hadley/mexico-mortality)
-* [data-movies](https://github.com/hadley/data-movies)
+* [data-movies](https://github.com/hadley/data-movies) & [ggplotmovies](https://cran.r-project.org/web/packages/ggplot2movies/)
 * [pop-flows](https://github.com/hadley/pop-flows)
 * [data-housing-crisis](https://github.com/hadley/data-housing-crisis)
 * [gun-sales](https://github.com/NYTimes/gunsales)
