@@ -209,4 +209,15 @@ These packages contain data sets to use as training data or toy examples.
 -   [stationaRy](https://github.com/rich-iannone/stationaRy)
 -   [ggenealogy](https://github.com/hadley/ggenealogy)
 
+Criteria
+--------
+
+What makes an R Package useful? A useful R package should perform a useful task, and it should do it well. Here are some criteria that we used to make the list.
+
+-   The code in the package runs fast, with few errors.
+-   The code in the package has an intuitive syntax that is easy to remember.
+-   The package plays well with other packages; you do not need to munge your data into new forms to use the package.
+-   The package is widely used and recommended by its users.
+-   The package has a development website, or series of vignettes, that make the package easy to learn.
+
 You can learn more about packages in R with the [CRAN task views](https://cran.r-project.org/web/views/).
