@@ -46,6 +46,8 @@ These packages help you import data into R and save data.
     + [bigrquery](https://github.com/rstats-db/bigrquery)
 * [PivotalR](https://github.com/pivotalsoftware/PivotalR)
 * [dplyr](https://github.com/hadley/dplyr)
+* [data.table](https://github.com/Rdatatable/data.table)
+* [openxlsx](https://github.com/awalker89/openxlsx)
 * gdata
 
 ## Tidy
@@ -103,6 +105,7 @@ These packages help you visualize your data.
     + [DiagrammeR](http://rich-iannone.github.io/DiagrammeR/)
     + [MetricsGraphics](http://hrbrmstr.github.io/metricsgraphics/)
 * [rCharts](http://rcharts.io/)
+* [coefplot](http://github.com/jaredlander/coefplot)
 * [quantmod](http://www.quantmod.com/)
 
 ## Transform
@@ -135,6 +138,8 @@ These packages help you build models and make inferences. Often the same package
 * nlme
 * ROCR
 * pROC
+* [arm](https://cran.r-project.org/web/packages/arm/index.html)
+* [glmnet](https://cran.r-project.org/web/packages/glmnet/index.html)
 
 
 ## Communicate
@@ -147,6 +152,8 @@ These packages help you communicate the results of data science to your audience
 * [rticles](https://github.com/rstudio/rticles)
 * [tufte](http://rstudio.github.io/tufte/)
 * [DT](http://rstudio.github.io/DT/)
+* [pixiedust](https://github.com/nutterb/pixiedust)
+* [DT](https://rstudio.github.io/DT/)
 * pander
 * xtable
 * stargazer
@@ -166,6 +173,7 @@ These packages help you create data science products that automate your analyses
 * [rsconnect](http://shiny.rstudio.com/articles/shinyapps.html)
 * [plumber](http://plumber.trestletech.com/)
 * countdown
+* [rmarkdown](http://rmarkdown.rstudio.com/)
 * [rstudioapi](https://github.com/rstudio/rstudioapi)
 
 ### Program
@@ -210,6 +218,7 @@ These packages contain data sets to use as training data or toy examples.
 * [gun-sales](https://github.com/NYTimes/gunsales)
 * [stationaRy](https://github.com/rich-iannone/stationaRy)
 * [ggenealogy](https://github.com/hadley/ggenealogy)
+* [diamonds](https://github.com/hadley/ggplot2/blob/master/data/diamonds.rda)
 
 ## Criteria
 
