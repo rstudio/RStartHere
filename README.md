@@ -147,6 +147,9 @@ These packages help you communicate the results of data science to your audience
 -   [rticles](https://github.com/rstudio/rticles)
 -   [tufte](http://rstudio.github.io/tufte/)
 -   [DT](http://rstudio.github.io/DT/)
+-   pander
+-   xtable
+-   stargazer
 
 Automate
 --------
