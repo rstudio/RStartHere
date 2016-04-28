@@ -110,6 +110,7 @@ These packages help you visualize your data.
     -   [MetricsGraphics](http://hrbrmstr.github.io/metricsgraphics/)
 -   [rCharts](http://rcharts.io/)
 -   [quantmod](http://www.quantmod.com/)
+-   [GGally](https://cran.r-project.org/web/packages/GGally/GGally.pdf)
 
 Transform
 ---------
@@ -140,7 +141,7 @@ These packages help you build models and make inferences. Often the same package
 -   xgboost
 -   randomForest
 -   ranger
--   h2o
+-   [h2o](http://www.h2o.ai/product/integration/)
 -   kernlab
 -   nlme
 -   ROCR
