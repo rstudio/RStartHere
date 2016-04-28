@@ -187,6 +187,7 @@ These packages make it easier to program with the R language.
 * [RStudio Server Open Source](https://www.rstudio.com/products/rstudio/#Server)
 * [RStudio Server Professional](https://www.rstudio.com/products/rstudio/#Server)
 * [devtools](https://github.com/hadley/devtools)
+* [drat](https://github.com/eddelbuettel/drat)
 * [magrittr](https://github.com/smbache/magrittr)
 * [packrat](https://rstudio.github.io/packrat/)
 * [testthat](https://journal.r-project.org/archive/2011-1/RJournal_2011-1_Wickham.pdf)
