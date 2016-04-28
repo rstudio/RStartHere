@@ -35,7 +35,9 @@ These packages help you import data into R and save data.
 -   [feather](https://blog.rstudio.org/2016/03/29/feather/)
 -   [readr](https://blog.rstudio.org/2015/10/28/readr-0-2-0/)
 -   [readxl](https://blog.rstudio.org/2015/04/15/readxl-0-1-0/)
--   [cellranger](https://github.com/jennybc/cellranger)
+-   [openxlsx](https://github.com/awalker89/openxlsx)
+-   gdata
+-   [googlesheets](https://github.com/jennybc/googlesheets)
 -   [haven](https://blog.rstudio.org/2015/03/04/haven-0-1-0/)
 -   [httr](https://blog.rstudio.org/2016/02/02/httr-1-1-0/)
 -   [rvest](https://blog.rstudio.org/2014/11/24/rvest-easy-web-scraping-with-r/)
@@ -48,7 +50,8 @@ These packages help you import data into R and save data.
     -   [bigrquery](https://github.com/rstats-db/bigrquery)
 -   [PivotalR](https://github.com/pivotalsoftware/PivotalR)
 -   [dplyr](https://github.com/hadley/dplyr)
--   gdata
+-   [data.table](https://github.com/Rdatatable/data.table)
+-   rio
 
 Tidy
 ----
@@ -59,6 +62,7 @@ These packages help you wrangle your data into a form that is easy to analyze in
 -   [dplyr](https://github.com/hadley/dplyr)
 -   [broom](http://varianceexplained.org/r/broom-intro/)
 -   [zoo](https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=r%20zoo)
+-   [purrr](https://github.com/hadley/purrr)
 
 Visualize
 ---------
@@ -109,8 +113,11 @@ These packages help you visualize your data.
     -   [DiagrammeR](http://rich-iannone.github.io/DiagrammeR/)
     -   [MetricsGraphics](http://hrbrmstr.github.io/metricsgraphics/)
 -   [rCharts](http://rcharts.io/)
+-   [coefplot](http://github.com/jaredlander/coefplot)
 -   [quantmod](http://www.quantmod.com/)
--   [GGally](https://cran.r-project.org/web/packages/GGally/GGally.pdf)
+-   RColorBrewer
+-   colorspace
+-   dichromat
 
 Transform
 ---------
@@ -141,11 +148,13 @@ These packages help you build models and make inferences. Often the same package
 -   xgboost
 -   randomForest
 -   ranger
--   [h2o](http://www.h2o.ai/product/integration/)
+-   h2o
 -   kernlab
 -   nlme
 -   ROCR
 -   pROC
+-   [arm](https://cran.r-project.org/web/packages/arm/index.html)
+-   [glmnet](https://cran.r-project.org/web/packages/glmnet/index.html)
 
 Communicate
 -----------
@@ -159,6 +168,7 @@ These packages help you communicate the results of data science to your audience
 -   [rticles](https://github.com/rstudio/rticles)
 -   [tufte](http://rstudio.github.io/tufte/)
 -   [DT](http://rstudio.github.io/DT/)
+-   [pixiedust](https://github.com/nutterb/pixiedust)
 -   pander
 -   xtable
 -   stargazer
@@ -180,6 +190,7 @@ These packages help you create data science products that automate your analyses
 -   [rsconnect](http://shiny.rstudio.com/articles/shinyapps.html)
 -   [plumber](http://plumber.trestletech.com/)
 -   countdown
+-   [rmarkdown](http://rmarkdown.rstudio.com/)
 -   [rstudioapi](https://github.com/rstudio/rstudioapi)
 
 ### Program
@@ -221,12 +232,14 @@ These packages contain data sets to use as training data or toy examples.
 -   [fueleconomy](https://github.com/hadley/fueleconomy)
 -   [nasaweather](https://github.com/hadley/nasaweather)
 -   [mexico-mortality](https://github.com/hadley/mexico-mortality)
--   [data-movies](https://github.com/hadley/data-movies)
+-   [data-movies](https://github.com/hadley/data-movies) & [ggplotmovies](https://cran.r-project.org/web/packages/ggplot2movies/)
 -   [pop-flows](https://github.com/hadley/pop-flows)
 -   [data-housing-crisis](https://github.com/hadley/data-housing-crisis)
 -   [gun-sales](https://github.com/NYTimes/gunsales)
 -   [stationaRy](https://github.com/rich-iannone/stationaRy)
 -   [ggenealogy](https://github.com/hadley/ggenealogy)
+-   [ggplot2](https://github.com/hadley/ggplot2/blob/master/data/diamonds.rda)(diamonds)
+-   gapminder
 
 Criteria
 --------
@@ -238,5 +251,8 @@ What makes an R Package useful? A useful R package should perform a useful task,
 -   The package plays well with other packages; you do not need to munge your data into new forms to use the package.
 -   The package is widely used and recommended by its users.
 -   The package has a development website, or series of vignettes, that make the package easy to learn.
+-   The package is developed in the open (e.g. on Github or RForge)
+-   The package is stable and available from CRAN
+-   The package uses tests to ensure that it will be stable and bug free well into the future
 
 You can learn more about packages in R with the [CRAN task views](https://cran.r-project.org/web/views/).

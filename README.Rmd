@@ -33,7 +33,9 @@ These packages help you import data into R and save data.
 * [feather](https://blog.rstudio.org/2016/03/29/feather/)
 * [readr](https://blog.rstudio.org/2015/10/28/readr-0-2-0/)
 * [readxl](https://blog.rstudio.org/2015/04/15/readxl-0-1-0/)
-* [cellranger](https://github.com/jennybc/cellranger)
+* [openxlsx](https://github.com/awalker89/openxlsx)
+* gdata
+* [googlesheets](https://github.com/jennybc/googlesheets)
 * [haven](https://blog.rstudio.org/2015/03/04/haven-0-1-0/)
 * [httr](https://blog.rstudio.org/2016/02/02/httr-1-1-0/)
 * [rvest](https://blog.rstudio.org/2014/11/24/rvest-easy-web-scraping-with-r/)
@@ -47,8 +49,7 @@ These packages help you import data into R and save data.
 * [PivotalR](https://github.com/pivotalsoftware/PivotalR)
 * [dplyr](https://github.com/hadley/dplyr)
 * [data.table](https://github.com/Rdatatable/data.table)
-* [openxlsx](https://github.com/awalker89/openxlsx)
-* gdata
+* rio
 
 ## Tidy
 These packages help you wrangle your data into a form that is easy to analyze in R.
@@ -57,6 +58,8 @@ These packages help you wrangle your data into a form that is easy to analyze in
 * [dplyr](https://github.com/hadley/dplyr)
 * [broom](http://varianceexplained.org/r/broom-intro/)
 * [zoo](https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=r%20zoo)
+* [purrr](https://github.com/hadley/purrr)
+
 
 ## Visualize
 These packages help you visualize your data.
@@ -107,6 +110,9 @@ These packages help you visualize your data.
 * [rCharts](http://rcharts.io/)
 * [coefplot](http://github.com/jaredlander/coefplot)
 * [quantmod](http://www.quantmod.com/)
+* RColorBrewer
+* colorspace
+* dichromat
 
 ## Transform
 These packages help you transform your data into new types of data.
@@ -153,7 +159,6 @@ These packages help you communicate the results of data science to your audience
 * [tufte](http://rstudio.github.io/tufte/)
 * [DT](http://rstudio.github.io/DT/)
 * [pixiedust](https://github.com/nutterb/pixiedust)
-* [DT](https://rstudio.github.io/DT/)
 * pander
 * xtable
 * stargazer
@@ -218,7 +223,8 @@ These packages contain data sets to use as training data or toy examples.
 * [gun-sales](https://github.com/NYTimes/gunsales)
 * [stationaRy](https://github.com/rich-iannone/stationaRy)
 * [ggenealogy](https://github.com/hadley/ggenealogy)
-* [diamonds](https://github.com/hadley/ggplot2/blob/master/data/diamonds.rda)
+* [ggplot2](https://github.com/hadley/ggplot2/blob/master/data/diamonds.rda)(diamonds)
+* gapminder
 
 ## Criteria
 
@@ -229,5 +235,8 @@ What makes an R Package useful? A useful R package should perform a useful task,
 * The package plays well with other packages; you do not need to munge your data into new forms to use the package.
 * The package is widely used and recommended by its users.
 * The package has a development website, or series of vignettes, that make the package easy to learn.
+* The package is developed in the open (e.g. on Github or RForge)
+* The package is stable and available from CRAN
+* The package uses tests to ensure that it will be stable and bug free well into the future
 
 You can learn more about packages in R with the [CRAN task views](https://cran.r-project.org/web/views/).
