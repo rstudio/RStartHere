@@ -233,7 +233,8 @@ These packages contain data sets to use as training data or toy examples.
 -   [stationaRy](https://github.com/rich-iannone/stationaRy)
 -   [ggenealogy](https://github.com/hadley/ggenealogy)
 -   [ggplot2](https://github.com/hadley/ggplot2/blob/master/data/diamonds.rda)(diamonds)
--   gapminder
+-   [gapminder](https://github.com/jennybc/gapminder)
+-   [janeaustenr](https://github.com/juliasilge/janeaustenr)
 
 Criteria
 --------
