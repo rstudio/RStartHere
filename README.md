@@ -252,8 +252,8 @@ What makes an R Package useful? A useful R package should perform a useful task,
 -   The package plays well with other packages; you do not need to munge your data into new forms to use the package.
 -   The package is widely used and recommended by its users.
 -   The package has a development website, or series of vignettes, that make the package easy to learn.
--   The package is developed in the open (e.g. on Github or RForge)
--   The package is stable and available from CRAN
--   The package uses tests to ensure that it will be stable and bug free well into the future
+-   The package is developed in the open (e.g. on Github or RForge).
+-   The package is stable and available from CRAN.
+-   The package uses tests to ensure that it will be stable and bug free well into the future.
 
 You can learn more about packages in R with the [CRAN task views](https://cran.r-project.org/web/views/).
