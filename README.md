@@ -214,6 +214,7 @@ These packages make it easier to program with the R language.
 -   Rth
 -   MKL by Microsoft/Revolution Analytics
 -   MRS by Microsoft/Revolution Analytics
+-   Arrow
 
 Data
 ----

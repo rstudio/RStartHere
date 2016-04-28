@@ -201,6 +201,7 @@ These packages make it easier to program with the R language.
 * Rth
 * MKL by Microsoft/Revolution Analytics
 * MRS by Microsoft/Revolution Analytics
+* Arrow
 
 ## Data 
 These packages contain data sets to use as training data or toy examples.
