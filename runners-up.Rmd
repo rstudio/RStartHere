@@ -1,0 +1,43 @@
+## Runners Up
+
+We know of people that recommend these packages. We haven't included them in our [main list](README.md) because they do not meet one or more of our criteria for a useful R package:
+
+* The code in the package runs fast, with few errors.
+* The code in the package has an intuitive syntax that is easy to remember.
+* The package plays well with other packages; you do not need to munge your data into new forms to use the package.
+* The package is widely used and recommended by its users.
+* The package has a development website, or series of vignettes, that make the package easy to learn.
+* The package is developed in the open (e.g. on Github or RForge).
+* The package uses tests to ensure that it will be stable and bug free well into the future.
+* The package is stable and available from CRAN, or we are personally involved with the package and committed to its development.
+
+
+### Import
+
+* gdata
+* rio
+
+### Tidy
+
+### Visualize
+
+* scales
+* [extrafont](https://github.com/wch/extrafont) - import fonts for graphs. No tests.
+* ggstat
+* gggeom
+* [manipulate](https://support.rstudio.com/hc/en-us/articles/200551906-Interactive-Plotting-with-Manipulate). No tests.
+
+### Transform
+
+### Model
+
+### Infer
+
+### Communicate
+
+* [pander](http://rapporter.github.io/pander/) - renders R objects into Pandoc markdown. No tests.
+* [stargazer](https://cran.r-project.org/web/packages/stargazer/vignettes/stargazer.pdf) - Turns R objects into customized tables. No public development page.
+
+### Automate
+
+### Program
