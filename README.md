@@ -36,7 +36,6 @@ These packages help you import data into R and save data.
 -   [readr](https://blog.rstudio.org/2015/10/28/readr-0-2-0/)
 -   [readxl](https://blog.rstudio.org/2015/04/15/readxl-0-1-0/)
 -   [openxlsx](https://github.com/awalker89/openxlsx)
--   gdata
 -   [googlesheets](https://github.com/jennybc/googlesheets)
 -   [haven](https://blog.rstudio.org/2015/03/04/haven-0-1-0/)
 -   [httr](https://blog.rstudio.org/2016/02/02/httr-1-1-0/)
@@ -51,7 +50,6 @@ These packages help you import data into R and save data.
 -   [PivotalR](https://github.com/pivotalsoftware/PivotalR)
 -   [dplyr](https://github.com/hadley/dplyr)
 -   [data.table](https://github.com/Rdatatable/data.table)
--   rio
 
 Tidy
 ----
@@ -60,9 +58,9 @@ These packages help you wrangle your data into a form that is easy to analyze in
 
 -   [tidyr](https://github.com/hadley/tidyr)
 -   [dplyr](https://github.com/hadley/dplyr)
+-   [purrr](https://github.com/hadley/purrr)
 -   [broom](http://varianceexplained.org/r/broom-intro/)
 -   [zoo](https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=r%20zoo)
--   [purrr](https://github.com/hadley/purrr)
 
 Visualize
 ---------
@@ -118,6 +116,7 @@ These packages help you visualize your data.
 -   RColorBrewer
 -   colorspace
 -   dichromat
+-   viridis
 
 Transform
 ---------
@@ -130,7 +129,7 @@ These packages help you transform your data into new types of data.
 -   [lubridate](https://cran.r-project.org/web/packages/lubridate/vignettes/lubridate.html)
 -   [tibble](https://github.com/hadley/tibble)
 -   [xts](http://r-forge.r-project.org/projects/xts)
--   vtreat
+-   [vtreat](https://github.com/WinVector/vtreat)
 
 Model/Infer
 -----------
