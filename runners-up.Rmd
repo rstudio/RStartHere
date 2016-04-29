@@ -1,3 +1,7 @@
+---
+output: github_document
+---
+
 ## Runners Up
 
 We know of people that recommend these packages. We haven't included them in our [main list](README.md) because they do not meet one or more of our criteria for a useful R package:
