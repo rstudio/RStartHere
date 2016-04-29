@@ -57,7 +57,7 @@ These packages help you wrangle your data into a form that is easy to analyze in
 * [tidyr](https://github.com/hadley/tidyr) - tools for tidying layout of tabular data
 * [dplyr](https://github.com/hadley/dplyr) - tools for joining multiple tables into a tidy data set
 * [purrr](https://github.com/hadley/purrr) - tools for applying R functions to data structures, very useful when tidying
-* [broom](http://varianceexplained.org/r/broom-intro/) - turns model output into tidy data frames
+* [broom](http://varianceexplained.org/r/broom-intro/) - tools for tidying statistical models into data frames
 * [zoo](https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=r%20zoo) - data structures for time series data
 
 
@@ -139,24 +139,18 @@ These packages help you build models and make inferences. Often the same package
 * [mvtnorm](http://mvtnorm.r-forge.r-project.org/) - Multivariate Normal and t Distributions
 * [MatrixModels](http://matrix.r-forge.r-project.org/) - Modelling with Sparse And Dense Matrices
 * [SparseM](http://www.econ.uiuc.edu/~roger/research/sparse/sparse.html) - linear algebra for sparse matrices
-* stats
-* mgcv
-* lme4
-* [broom](http://varianceexplained.org/r/broom-intro/)
-* [caret](http://topepo.github.io/caret/index.html)
-* [glmnet](https://web.stanford.edu/~hastie/glmnet/glmnet_alpha.html)
-* [mosaic](http://mosaic-web.org/)
-* gbm
-* xgboost
-* randomForest
-* ranger
-* h2o
-* kernlab
-* nlme
-* ROCR
-* pROC
-* [arm](https://cran.r-project.org/web/packages/arm/index.html)
-* [glmnet](https://cran.r-project.org/web/packages/glmnet/index.html)
+* [lme4](https://github.com/lme4/lme4) - Linear Mixed-Effects Models using Eigen C++ library
+* [broom](http://varianceexplained.org/r/broom-intro/) - tools for tidying statistical models into data frames
+* [caret](http://topepo.github.io/caret/index.html) - tools for Classification And REgression Training
+* [glmnet](https://web.stanford.edu/~hastie/glmnet/glmnet_alpha.html) - generalized linear models via penalized maximum likelihood
+* [mosaic](http://mosaic-web.org/) - Tools for teaching mathematics, statistics, computation and modeling
+* [gbm](https://github.com/gbm-developers/gbm) - gradient boosted regression models
+* [xgboost](https://github.com/dmlc/xgboost) - Extreme Gradient Boosting
+* [randomForest](https://www.stat.berkeley.edu/~breiman/RandomForests/) - Random Forests for Classification and Regression
+* [ranger](https://github.com/imbs-hl/ranger) - a fast implementation of Random Forests
+* [h2o](http://www.h2o.ai/) - parallel distributed machine learning algorithms
+* [ROCR](http://rocr.bioinf.mpi-sb.mpg.de/) - plots to visualize classifier performance
+* [pROC](http://web.expasy.org/pROC/) - Tools for visualizing, smoothing and comparing ROC curves
 
 
 ## Communicate
@@ -179,42 +173,37 @@ These packages help you communicate the results of data science to your audience
 ## Automate
 These packages help you create data science products that automate your analyses.
 
-* [shiny](http://shiny.rstudio.com/)
-    + [shinydashboard](http://rstudio.github.io/shinydashboard/)
-    + [shinythemes](http://rstudio.github.io/shinythemes/)
-    + [shinyAce](http://trestletech.github.io/shinyAce/)
-    + [shinyjs](https://github.com/daattali/shinyjs/blob/master/README.md)
-    + [miniUI](https://github.com/rstudio/miniUI)
-    + [shinyapps.io](https://www.shinyapps.io/)
-    + [Shiny Server Open Source](https://www.rstudio.com/products/shiny/shiny-server/)
-    + [Shiny Server Pro](https://www.rstudio.com/products/shiny/shiny-server/)
-* [rsconnect](http://shiny.rstudio.com/articles/shinyapps.html)
-* [plumber](http://plumber.trestletech.com/)
-* countdown
-* [rmarkdown](http://rmarkdown.rstudio.com/)
-* [rstudioapi](https://github.com/rstudio/rstudioapi)
+* [shiny](http://shiny.rstudio.com/) - tools to make interactive web apps with R
+    + [shinydashboard](http://rstudio.github.io/shinydashboard/) - interactive dashboards with R
+    + [shinythemes](http://rstudio.github.io/shinythemes/) - style themes for Shiny apps
+    + [shinyAce](http://trestletech.github.io/shinyAce/) - Ace text editor for Shiny apps
+    + [shinyjs](https://github.com/daattali/shinyjs/blob/master/README.md) - adds common JavaScript operations to Shiny apps
+    + [miniUI](https://github.com/rstudio/miniUI) - UI elements for Shiny gadgets, interactive apps integrated into the R commandline workflow
+    + [shinyapps.io](https://www.shinyapps.io/) - hosting service for Shiny apps
+    + [Shiny Server Open Source](https://www.rstudio.com/products/shiny/shiny-server/) - OS server to host Shiny apps
+    + [Shiny Server Pro](https://www.rstudio.com/products/shiny/shiny-server/) - server to host Shiny apps enhanced with features for business enterprises
+* [rsconnect](http://shiny.rstudio.com/articles/shinyapps.html) - deploys Shiny apps to [shinyapps.io](https://www.shinyapps.io/)
+* [plumber](http://plumber.trestletech.com/) - converts R code to a web API
+* [rmarkdown](http://rmarkdown.rstudio.com/) - easy-to-use format for reproducible reports and dynamic documents in R
+* [rstudioapi](https://github.com/rstudio/rstudioapi) - safely access RStudio IDE's API
 
 ### Program
 These packages make it easier to program with the R language.
 
-* [RStudio Desktop IDE](https://www.rstudio.com/products/rstudio/#Desktop)
+* [RStudio Desktop IDE](https://www.rstudio.com/products/rstudio/#Desktop) - IDE application for R 
 * [RStudio Server Open Source](https://www.rstudio.com/products/rstudio/#Server)
-* [RStudio Server Professional](https://www.rstudio.com/products/rstudio/#Server)
-* [devtools](https://github.com/hadley/devtools)
-* [packrat](https://rstudio.github.io/packrat/)
-* [drat](https://github.com/eddelbuettel/drat)
-* [testthat](https://journal.r-project.org/archive/2011-1/RJournal_2011-1_Wickham.pdf)
-* [roxygen2](https://github.com/klutometis/roxygen)
-* [purrr](https://github.com/hadley/purrr)
-* [profvis](https://github.com/rstudio/profvis)
-* [Rcpp](http://www.rcpp.org/)
-* [R6](https://github.com/wch/R6)
-* htmltools
-* snow
-* Rth
-* MKL by Microsoft/Revolution Analytics
-* MRS by Microsoft/Revolution Analytics
-* Arrow
+ - server based IDE for R
+ * [RStudio Server Professional](https://www.rstudio.com/products/rstudio/#Server) - server based IDE for R enhanced with features for business enterprises
+* [devtools](https://github.com/hadley/devtools) - tools that make it easier to develop R packages
+* [packrat](https://rstudio.github.io/packrat/) - creates project specific libraries, which handle package versioning and enhance reproducibility
+* [drat](https://github.com/eddelbuettel/drat) - tools to create and use alternative R package repositories
+* [testthat](https://journal.r-project.org/archive/2011-1/RJournal_2011-1_Wickham.pdf) - easy-to-use system for unit testing packages
+* [roxygen2](https://github.com/klutometis/roxygen) - easy-to-use method for documenting packages
+* [purrr](https://github.com/hadley/purrr) - tools for applying R functions to data structures
+* [profvis](https://github.com/rstudio/profvis) - visualizes code profiling data from R
+* [Rcpp](http://www.rcpp.org/) - C++ API for R
+* [R6](https://github.com/wch/R6) - fast, simple object class that uses reference semantics
+* [htmltools](https://github.com/rstudio/htmltools) - Tools for HTML generation and output
 * [nloptr](https://github.com/jyypma/nloptr) - interface to NLopt non-linear optimization library.
 * [minqa](http://optimizer.r-forge.r-project.org/) - optimization algorithms.
 * [rngtools](http://renozao.github.io/rngtools/) - Utilities for working with Random Number Generators
@@ -227,27 +216,24 @@ These packages make it easier to program with the R language.
 ## Data 
 These packages contain data sets to use as training data or toy examples.
 
-* datasets
-* [babynames](https://github.com/hadley/babynames)
-* [neiss](https://github.com/hadley/neiss)
-* [yrbss](https://github.com/hadley/yrbss)
-* [nycflights13](https://github.com/hadley/nycflights13)
-* [hflights](https://github.com/hadley/hflights)
-* [USAboundaries](https://github.com/ropensci/USAboundaries)
-* [rworldmap](https://github.com/AndySouth/rworldmap)
-* [usdanutrients](https://github.com/hadley/usdanutrients)
-* [fueleconomy](https://github.com/hadley/fueleconomy)
-* [nasaweather](https://github.com/hadley/nasaweather)
-* [mexico-mortality](https://github.com/hadley/mexico-mortality)
-* [data-movies](https://github.com/hadley/data-movies) & [ggplotmovies](https://cran.r-project.org/web/packages/ggplot2movies/)
-* [pop-flows](https://github.com/hadley/pop-flows)
-* [data-housing-crisis](https://github.com/hadley/data-housing-crisis)
-* [gun-sales](https://github.com/NYTimes/gunsales)
-* [stationaRy](https://github.com/rich-iannone/stationaRy)
-* [ggenealogy](https://github.com/hadley/ggenealogy)
-* [ggplot2](https://github.com/hadley/ggplot2/blob/master/data/diamonds.rda)(diamonds)
-* [gapminder](https://github.com/jennybc/gapminder)
-* [janeaustenr](https://github.com/juliasilge/janeaustenr)
+* [babynames](https://github.com/hadley/babynames) - Names given to US babies 1880-2014
+* [neiss](https://github.com/hadley/neiss) - sample of all accidents reported to US emergency rooms 2009-2014
+* [yrbss](https://github.com/hadley/yrbss) - Youth Risk Behaviour Surveillance System data from 1991 to 2013
+* [nycflights13](https://github.com/hadley/nycflights13) - all out-bound flights from NYC in 2013
+* [hflights](https://github.com/hadley/hflights) - flights departing Houston in 2011
+* [USAboundaries](https://github.com/ropensci/USAboundaries) - Historical and Contemporary Boundaries of the United States of America
+* [rworldmap](https://github.com/AndySouth/rworldmap) - country border data
+* [usdanutrients](https://github.com/hadley/usdanutrients) - USDA nutrient database
+* [fueleconomy](https://github.com/hadley/fueleconomy) - EPA fuel economy data
+* [nasaweather](https://github.com/hadley/nasaweather) - geographic and atmospheric measures on a very coarse 24 by 24 grid covering Central America
+* [mexico-mortality](https://github.com/hadley/mexico-mortality) - deaths in Mexico
+* [data-movies](https://github.com/hadley/data-movies) and [ggplotmovies](https://cran.r-project.org/web/packages/ggplot2movies/) - data from the Internet Movie Database (IMDB)
+* [pop-flows](https://github.com/hadley/pop-flows) - Population flows around the USA in 2008
+* [data-housing-crisis](https://github.com/hadley/data-housing-crisis) - Clean data related to the 2008 US housing crisis
+* [gun-sales](https://github.com/NYTimes/gunsales) - Statistical analysis of monthly background checks of gun purchases from NY times
+* [stationaRy](https://github.com/rich-iannone/stationaRy) - hourly meteorological data from one of thousands of global stations
+* [gapminder](https://github.com/jennybc/gapminder) - Excerpt from the Gapminder data
+* [janeaustenr](https://github.com/juliasilge/janeaustenr) - Jane Austen's Complete Novels
 
 ## Criteria
 

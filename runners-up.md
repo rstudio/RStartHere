@@ -45,6 +45,10 @@ We know of people that recommend these packages. We haven't included them in our
 
 ### Model
 
+-   arm - Regression and Multilevel/Hierarchical Models. No website. No vignette.
+-   nlme - Linear and Nonlinear Mixed Effects Models. No website.
+-   kernlab - Kernel-based machine learning methods. No website.
+-   mgcv - generalized additive models. No website. No vignette.
 -   [boot](https://cran.r-project.org/doc/Rnews/Rnews_2002-3.pdf) - bootstrapping methods. No site.
 -   [irlba](https://github.com/bwlewis/irlba/issues) - SVD, PCA and Symmetric Eigendecomposition for large, sparse matrices. No vignette.
 -   e1071 - `svm()` function for support vector machines. No website.
@@ -63,6 +67,7 @@ We know of people that recommend these packages. We haven't included them in our
 
 -   [pander](http://rapporter.github.io/pander/) - renders R objects into Pandoc markdown. No tests.
 -   [stargazer](https://cran.r-project.org/web/packages/stargazer/vignettes/stargazer.pdf) - Turns R objects into customized tables. No public development page.
+-   [countdown](https://github.com/jcheng5/countdown) - countdown timer for R Markdown documents. Not on Cran. No vignette.
 
 ### Automate
 
@@ -92,3 +97,11 @@ We know of people that recommend these packages. We haven't included them in our
 -   [curl](https://github.com/jeroenooms/curl) - An R connection interface to libcurl. Not for DS.
 -   [mime](https://github.com/yihui/mime) - Map Filenames to MIME Types. Not for DS.
 -   [digest](http://dirk.eddelbuettel.com/code/digest.html) - Create Compact Hash Digests of R Objects. Not for DS.
+-   [snow](http://www.sfu.ca/~sblay/R/snow.html) - simple parallel computing in R. No website.
+-   [Rth](https://github.com/Rth-org/Rth) - Parallel processing with R through Thrush. Not on CRAN.
+
+Data
+----
+
+-   datasets - small data sets
+-   HistData - small data sets of historical importance
