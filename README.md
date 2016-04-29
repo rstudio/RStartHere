@@ -50,6 +50,7 @@ These packages help you import data into R and save data.
 -   [PivotalR](https://github.com/pivotalsoftware/PivotalR) - reads data from Pivitol (Greenplum) and HAWQ databases
 -   [dplyr](https://github.com/hadley/dplyr) - contains an interface to common databases
 -   [data.table](https://github.com/Rdatatable/data.table) - `fread()` for fast table reading
+-   [git2r](https://github.com/ropensci/git2r) - tools to access git repositories
 
 Tidy
 ----
@@ -111,8 +112,12 @@ These packages help you visualize your data.
 -   [quantmod](http://www.quantmod.com/) - candlestick financial charts
 -   [colorspace](https://cran.r-project.org/web/packages/colorspace/vignettes/hcl-colors.pdf) - HSL based color palettes
 -   [viridis](https://github.com/sjmgarnier/viridis) - Matplotlib viridis color pallete for R
+-   [munsell](https://github.com/cwickham/munsell) - Munsell color palettes for R.
 -   RColorBrewer - color palettes for plots. No manual or website.
 -   dichromat - color-blind friendly palettes. No manual or website.
+-   [igraph](http://igraph.org/) - Network Analysis and Visualization
+-   [latticeExtra](http://latticeextra.r-forge.r-project.org/) - Extensions for lattice graphics
+-   [sp](https://github.com/edzer/sp/) - tools for spatial data
 
 Transform
 ---------
@@ -127,12 +132,21 @@ These packages help you transform your data into new types of data.
 -   [xts](http://r-forge.r-project.org/projects/xts) - tools for time series based data
 -   [data.table](https://github.com/Rdatatable/data.table/wiki) - fast data manipulation
 -   [vtreat](https://github.com/WinVector/vtreat) - tools for pre-processing variables for predictive modeling
+-   [stringi](http://www.rexamine.com/resources/stringi/) - fast string processing facilities.
+-   [Matrix](http://matrix.r-forge.r-project.org/) - LAPACK methods for dense and sparse matrix operations
 
 Model/Infer
 -----------
 
 These packages help you build models and make inferences. Often the same packages will focus on both topics.
 
+-   [car](https://r-forge.r-project.org/projects/car/) - functions from An R Companion to Applied Regression
+-   [Hmisc](https://github.com/harrelfe/Hmisc) - miscellaneous functions for data analysis
+-   [multcomp](http://multcomp.r-forge.r-project.org/) - Simultaneous Inference in General Parametric Models
+-   [pbkrtest](http://people.math.aau.dk/~sorenh/software/pbkrtest/) - parametric bootstrap test for linear mixed effects models
+-   [mvtnorm](http://mvtnorm.r-forge.r-project.org/) - Multivariate Normal and t Distributions
+-   [MatrixModels](http://matrix.r-forge.r-project.org/) - Modelling with Sparse And Dense Matrices
+-   [SparseM](http://www.econ.uiuc.edu/~roger/research/sparse/sparse.html) - linear algebra for sparse matrices
 -   stats
 -   mgcv
 -   lme4
@@ -166,6 +180,9 @@ These packages help you communicate the results of data science to your audience
 -   [DT](http://rstudio.github.io/DT/) - Interactive data tables
 -   [pixiedust](https://github.com/nutterb/pixiedust) - Customized tables
 -   [xtable](https://cran.r-project.org/web/packages/xtable/vignettes/xtableGallery.pdf) - Customized tables
+-   [highr](https://github.com/yihui/highr) - Syntax Highlighting for R Source Code
+-   [formatR](http://yihui.name/formatR/) - `tidy_source()` to format R source code
+-   [yaml](https://github.com/viking/r-yaml) - Methods to convert R data to YAML and back
 
 Automate
 --------
@@ -196,11 +213,12 @@ These packages make it easier to program with the R language.
 -   [RStudio Server Professional](https://www.rstudio.com/products/rstudio/#Server)
 -   [devtools](https://github.com/hadley/devtools)
 -   [packrat](https://rstudio.github.io/packrat/)
+-   [drat](https://github.com/eddelbuettel/drat)
 -   [testthat](https://journal.r-project.org/archive/2011-1/RJournal_2011-1_Wickham.pdf)
 -   [roxygen2](https://github.com/klutometis/roxygen)
 -   [purrr](https://github.com/hadley/purrr)
 -   [profvis](https://github.com/rstudio/profvis)
--   [rcpp](http://www.rcpp.org/)
+-   [Rcpp](http://www.rcpp.org/)
 -   [R6](https://github.com/wch/R6)
 -   htmltools
 -   snow
@@ -208,6 +226,14 @@ These packages make it easier to program with the R language.
 -   MKL by Microsoft/Revolution Analytics
 -   MRS by Microsoft/Revolution Analytics
 -   Arrow
+-   [nloptr](https://github.com/jyypma/nloptr) - interface to NLopt non-linear optimization library.
+-   [minqa](http://optimizer.r-forge.r-project.org/) - optimization algorithms.
+-   [rngtools](http://renozao.github.io/rngtools/) - Utilities for working with Random Number Generators
+-   [NMF](http://renozao.github.io/NMF/) - Nonnegative Matrix Factorization
+-   [crayon](https://github.com/gaborcsardi/crayon) - Adds color to terminal output
+-   [RJSONIO](https://github.com/duncantl/RJSONIO) - convert R objects to JSON notation
+-   [jsonlite](https://github.com/jeroenooms/jsonlite) - a fast JSON parser and generator for R
+-   [RcppArmadillo](https://github.com/RcppCore/RcppArmadillo) - interface to 'Armadillo' Templated Linear Algebra Library
 
 Data
 ----
@@ -249,5 +275,7 @@ What makes an R Package useful? A useful R package should perform a useful task,
 -   The package is developed in the open (e.g. on Github or RForge).
 -   The package uses tests to ensure that it will be stable and bug free well into the future.
 -   The package is stable and available from CRAN, or we are personally involved with the package and committed to its development.
+
+For other useful choices, please check out our list of [popular packages that did not quite meet these criteria](runners-up.md).
 
 You can learn more about packages in R with the [CRAN task views](https://cran.r-project.org/web/views/).

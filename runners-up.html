@@ -127,12 +127,17 @@ $(document).ready(function () {
 <div id="import" class="section level3">
 <h3>Import</h3>
 <ul>
-<li>gdata</li>
 <li>rio</li>
+<li><a href="http://www.omegahat.net/RSXML/">XML</a> - parse and generate xml from R.</li>
+<li><a href="https://github.com/dragua/xlsx">xlsx</a> - Read and write Microsoft Excel files.</li>
 </ul>
 </div>
 <div id="tidy" class="section level3">
 <h3>Tidy</h3>
+<ul>
+<li>chron - Objects to handle date and times. No website. No vignette.</li>
+<li><a href>reshape2</a> - Superceded by <a href="https://github.com/hadley/tidyr">tidyr</a>.</li>
+</ul>
 </div>
 <div id="visualize" class="section level3">
 <h3>Visualize</h3>
@@ -142,13 +147,36 @@ $(document).ready(function () {
 <li>ggstat</li>
 <li>gggeom</li>
 <li><a href="https://support.rstudio.com/hc/en-us/articles/200551906-Interactive-Plotting-with-Manipulate">manipulate</a>. No tests.</li>
+<li>gridBase - integrates base and grid graphics. No website. Not DS.</li>
+<li>maps - utilities for maps. No website. No vignette.</li>
+<li>labeling - axis labeling algorithms. No website. No vignette.</li>
+<li><a href>gtable</a> - tools for laying out plots. No website. No vignettes. Not for DS.</li>
+<li><a href="https://github.com/baptiste/gridextra">gridExtra</a> - extensions for grid graphics. Not for DS.</li>
+<li><a href>scales</a> - Utilities for mapping data to visual aesthetics in plots. No website. No vignette. Not for DS.</li>
 </ul>
 </div>
 <div id="transform" class="section level3">
 <h3>Transform</h3>
+<ul>
+<li>gdata - tools for data manipulation. No website.</li>
+<li><a href>plyr</a> - functions for groupwise operations. Most used parts superceded by <a href="https://github.com/hadley/dplyr">dplyr</a>.</li>
+</ul>
 </div>
 <div id="model" class="section level3">
 <h3>Model</h3>
+<ul>
+<li><a href="https://cran.r-project.org/doc/Rnews/Rnews_2002-3.pdf">boot</a> - bootstrapping methods. No site.</li>
+<li><a href="https://github.com/bwlewis/irlba/issues">irlba</a> - SVD, PCA and Symmetric Eigendecomposition for large, sparse matrices. No vignette.</li>
+<li>e1071 - <code>svm()</code> function for support vector machines. No website.</li>
+<li>lmtest - tools to test linear regression models. No website.</li>
+<li>acepack - ACE and AVAS methods for choosing regression transformations. No website. No vignette.</li>
+<li>nnet - neural networks with a single hidden layer. No website. No vignette.</li>
+<li>sandwich - Model-robust standard error estimators for cross-sectional, time series, and longitudinal data. No website.</li>
+<li>Formula - Infrastructure for multipart modelling formulas. No website.</li>
+<li>MASS - functions and data sets from Modern Applied Statistics with S. No development website. No vignette.</li>
+<li>caTools - tools for moving window statistics. No Website. No Vignette.</li>
+<li>quantreg - quantile regression. No Website.</li>
+</ul>
 </div>
 <div id="infer" class="section level3">
 <h3>Infer</h3>
@@ -162,9 +190,36 @@ $(document).ready(function () {
 </div>
 <div id="automate" class="section level3">
 <h3>Automate</h3>
+<ul>
+<li><a href="https://github.com/jeroenooms/openssl">openssl</a> - Encryption, Signatures and Certificates Based on OpenSSL. Not for DS.</li>
+<li><a href="http://www.omegahat.net/RCurl/">RCurl</a> - libcurl interface for HTTP requests. Not for DS.</li>
+</ul>
 </div>
 <div id="program" class="section level3">
 <h3>Program</h3>
+<ul>
+<li><a href="https://github.com/rstudio/httpuv">httpuv</a> - tools for HTTP and WebSocket requests. Not DS.</li>
+<li><a href="https://cran.r-project.org/web/packages/registry/vignettes/registry.pdf">registry</a> - tools for defining and using registries. No website. Not DS.</li>
+<li><a href="http://renozao.github.io/pkgmaker/">pkgmaker</a> - Utilities for making R packages. Not DS.</li>
+<li><a href="http://blog.ryanwalker.us/2014/01/solving-quadratic-progams-with-rs.html">quadprog</a> - tools for solving quadratic programming. No dev site.</li>
+<li>doParallel - parallel processing when combined with the <code>foreach</code> package. No website.</li>
+<li><a href="https://github.com/jimhester/withr">withr</a> - run code with safely and temporarily modified global state. Not DS.</li>
+<li><a href="https://github.com/edwindj/whisker">whisker</a> - {{mustache}} templating for R. Not DS.</li>
+<li>gtools - Various R Programming Tools. No website. No vignette.</li>
+<li><a href="https://github.com/hadley/assertthat">assertthat</a> - tools for more friendly error messages. Not DS.</li>
+<li><a href="https://github.com/hadley/lazyeval">lazyeval</a> - tools to program with non-standard evaluation. Not for DS.</li>
+<li>iterators - Support for iterating operations. No website.</li>
+<li><a href="https://github.com/hadley/memoise">memoise</a> - Cache the results of a function so that when you call it again with the same arguments it returns the pre-computed value. Not for DS.</li>
+<li><a href="http://eigen.tuxfamily.org/">RcppEigen</a> - interface for Eigen C++ library for linear algebra. Not for DS.</li>
+<li>foreach - foreach looping. Now Website.</li>
+<li><a href>evaluate</a> - Parsing and evaluation tools that make it easy to recreate the command line behaviour of R. Not for DS.</li>
+<li><a href="https://github.com/eddelbuettel/bh">BH</a> - Boost C++ templates for R. Not for DS.</li>
+<li><a href="https://github.com/s-u/rJava">rJava</a> - Low-Level R to Java Interface. Not for DS.</li>
+<li>bitops - functions for bitwise operations on integer vectors. No website. No vignette. Not for DS.</li>
+<li><a href="https://github.com/jeroenooms/curl">curl</a> - An R connection interface to libcurl. Not for DS.</li>
+<li><a href="https://github.com/yihui/mime">mime</a> - Map Filenames to MIME Types. Not for DS.</li>
+<li><a href="http://dirk.eddelbuettel.com/code/digest.html">digest</a> - Create Compact Hash Digests of R Objects. Not for DS.</li>
+</ul>
 </div>
 </div>
 
