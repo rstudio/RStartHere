@@ -202,8 +202,7 @@ These packages help you create data science products that automate your analyses
 These packages make it easier to program with the R language.
 
 -   [RStudio Desktop IDE](https://www.rstudio.com/products/rstudio/#Desktop) - IDE application for R
--   [RStudio Server Open Source](https://www.rstudio.com/products/rstudio/#Server)
--   server based IDE for R
+-   [RStudio Server Open Source](https://www.rstudio.com/products/rstudio/#Server) - server based IDE for R
 -   [RStudio Server Professional](https://www.rstudio.com/products/rstudio/#Server) - server based IDE for R enhanced with features for business enterprises
 -   [devtools](https://github.com/hadley/devtools) - tools that make it easier to develop R packages
 -   [packrat](https://rstudio.github.io/packrat/) - creates project specific libraries, which handle package versioning and enhance reproducibility
