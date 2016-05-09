@@ -170,6 +170,7 @@ These packages help you communicate the results of data science to your audience
 * [highr](https://github.com/yihui/highr) - Syntax Highlighting for R Source Code
 * [formatR](http://yihui.name/formatR/) - `tidy_source()` to format R source code
 * [yaml](https://github.com/viking/r-yaml) - Methods to convert R data to YAML and back
+* [pander](http://rapporter.github.io/pander/) - renders R objects into Pandoc markdown.
 
 
 ## Automate

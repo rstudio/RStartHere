@@ -47,7 +47,7 @@ These packages help you import data into R and save data.
     -   [RPostgres](https://github.com/rstats-db/RPostgres) - Postgres driver for DBI
     -   [RSQLite](https://github.com/rstats-db/RSQLite) - SQlite driver for DBI
     -   [bigrquery](https://github.com/rstats-db/bigrquery) - Google BigQuery driver for DBI
--   [PivotalR](https://github.com/pivotalsoftware/PivotalR) - reads data from Pivitol (Greenplum) and HAWQ databases
+-   [PivotalR](https://github.com/pivotalsoftware/PivotalR) - reads data from and interfaces with [Postgres](http://www.postgresql.org), [Greenplum](http://greenplum.org), and [HAWQ](http://hawq.incubator.apache.org)
 -   [dplyr](https://github.com/hadley/dplyr) - contains an interface to common databases
 -   [data.table](https://github.com/Rdatatable/data.table) - `fread()` for fast table reading
 -   [git2r](https://github.com/ropensci/git2r) - tools to access git repositories
@@ -62,6 +62,7 @@ These packages help you wrangle your data into a form that is easy to analyze in
 -   [purrr](https://github.com/hadley/purrr) - tools for applying R functions to data structures, very useful when tidying
 -   [broom](http://varianceexplained.org/r/broom-intro/) - tools for tidying statistical models into data frames
 -   [zoo](https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=r%20zoo) - data structures for time series data
+-   [PivotalR](https://github.com/pivotalsoftware/PivotalR) - R wrappers for in-database SQL operations (i.e. join, group by)
 
 Visualize
 ---------
@@ -159,6 +160,7 @@ These packages help you build models and make inferences. Often the same package
 -   [h2o](http://www.h2o.ai/) - parallel distributed machine learning algorithms
 -   [ROCR](http://rocr.bioinf.mpi-sb.mpg.de/) - plots to visualize classifier performance
 -   [pROC](http://web.expasy.org/pROC/) - Tools for visualizing, smoothing and comparing ROC curves
+-   [PivotalR](https://github.com/pivotalsoftware/PivotalR) - R wrappers for [MADlib](http://madlib.incubator.apache.org)'s parallel distributed machine learning algorithms
 
 Communicate
 -----------
@@ -177,6 +179,7 @@ These packages help you communicate the results of data science to your audience
 -   [highr](https://github.com/yihui/highr) - Syntax Highlighting for R Source Code
 -   [formatR](http://yihui.name/formatR/) - `tidy_source()` to format R source code
 -   [yaml](https://github.com/viking/r-yaml) - Methods to convert R data to YAML and back
+-   [pander](http://rapporter.github.io/pander/) - renders R objects into Pandoc markdown.
 
 Automate
 --------

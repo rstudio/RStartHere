@@ -65,7 +65,6 @@ We know of people that recommend these packages. We haven't included them in our
 
 ### Communicate
 
--   [pander](http://rapporter.github.io/pander/) - renders R objects into Pandoc markdown. No tests.
 -   [stargazer](https://cran.r-project.org/web/packages/stargazer/vignettes/stargazer.pdf) - Turns R objects into customized tables. No public development page.
 -   [countdown](https://github.com/jcheng5/countdown) - countdown timer for R Markdown documents. Not on Cran. No vignette.
 
