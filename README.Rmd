@@ -171,6 +171,7 @@ These packages help you communicate the results of data science to your audience
 * [formatR](http://yihui.name/formatR/) - `tidy_source()` to format R source code
 * [yaml](https://github.com/viking/r-yaml) - Methods to convert R data to YAML and back
 * [pander](http://rapporter.github.io/pander/) - renders R objects into Pandoc markdown.
+* [tableone](https://github.com/kaz-yos/tableone) - Produces tables of baseline characteristics (usually stratified by a factor)
 
 
 ## Automate
