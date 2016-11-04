@@ -104,7 +104,7 @@ These packages help you visualize your data.
     + [rglwidget](http://cran.at.r-project.org/web/packages/rglwidget/index.html) - Interactive 3d plot
     + [DiagrammeR](http://rich-iannone.github.io/DiagrammeR/) - Interactive diagrams
     + [MetricsGraphics](http://hrbrmstr.github.io/metricsgraphics/) - Interactive MetricsGraphics plots
-* [rCharts](http://rcharts.io/) - many interactive JavaScript visualizations
+* [rCharts](https://ramnathv.github.io/rCharts/) - many interactive JavaScript visualizations
 * [coefplot](http://github.com/jaredlander/coefplot) - visualizes model statistics
 * [quantmod](http://www.quantmod.com/) - candlestick financial charts
 * [colorspace](https://cran.r-project.org/web/packages/colorspace/vignettes/hcl-colors.pdf) - HSL based color palettes
