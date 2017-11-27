@@ -45,6 +45,7 @@ These packages help you import data into R and save data.
     + [RPostgres](https://github.com/rstats-db/RPostgres) - Postgres driver for DBI
     + [RSQLite](https://github.com/rstats-db/RSQLite) - SQlite driver for DBI
     + [bigrquery](https://github.com/rstats-db/bigrquery) - Google BigQuery driver for DBI
+    + [MonetDBLite](https://github.com/hannesmuehleisen/MonetDBLite) - MonetDBLite, an in-process columnar store
 * [PivotalR](https://github.com/pivotalsoftware/PivotalR) - reads data from and interfaces with [Postgres](http://www.postgresql.org), [Greenplum](http://greenplum.org), and [HAWQ](http://hawq.incubator.apache.org) 
 * [dplyr](https://github.com/hadley/dplyr) - contains an interface to common databases
 * [data.table](https://github.com/Rdatatable/data.table) - `fread()` for fast table reading
