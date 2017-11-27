@@ -50,6 +50,7 @@ These packages help you import data into R and save data.
 * [dplyr](https://github.com/hadley/dplyr) - contains an interface to common databases
 * [data.table](https://github.com/Rdatatable/data.table) - `fread()` for fast table reading
 * [git2r](https://github.com/ropensci/git2r) - tools to access git repositories
+* [BioInstaller](https://github.com/JhuangLab/BioInstaller) - Downloader for biological software and database.
 
 
 ## Tidy
@@ -173,6 +174,8 @@ These packages help you communicate the results of data science to your audience
 * [formatR](http://yihui.name/formatR/) - `tidy_source()` to format R source code
 * [yaml](https://github.com/viking/r-yaml) - Methods to convert R data to YAML and back
 * [pander](http://rapporter.github.io/pander/) - renders R objects into Pandoc markdown.
+* [configr](https://github.com/Miachol/configr) - Integrated and improved configuration file parser (json,ini,yaml,toml).
+
 
 
 ## Automate
