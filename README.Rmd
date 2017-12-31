@@ -62,7 +62,7 @@ These packages help you wrangle your data into a form that is easy to analyze in
 * [broom](http://varianceexplained.org/r/broom-intro/) - tools for tidying statistical models into data frames
 * [zoo](https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=r%20zoo) - data structures for time series data
 * [PivotalR](https://github.com/pivotalsoftware/PivotalR) - R wrappers for in-database SQL operations (i.e. join, group by)
-
+* [janitor](https://github.com/sfirke/janitor) - tools for cleaning excel data and tables
 
 ## Visualize
 These packages help you visualize your data.
@@ -175,7 +175,7 @@ These packages help you communicate the results of data science to your audience
 * [yaml](https://github.com/viking/r-yaml) - Methods to convert R data to YAML and back
 * [pander](http://rapporter.github.io/pander/) - renders R objects into Pandoc markdown.
 * [configr](https://github.com/Miachol/configr) - Integrated and improved configuration file parser (json,ini,yaml,toml).
-
+* [officer](https://github.com/davidgohel/officer) - create office documents from R
 
 
 ## Automate
@@ -219,6 +219,7 @@ These packages make it easier to program with the R language.
 * [RJSONIO](https://github.com/duncantl/RJSONIO) - convert R objects to JSON notation
 * [jsonlite](https://github.com/jeroenooms/jsonlite) - a fast JSON parser and generator for R
 * [RcppArmadillo](https://github.com/RcppCore/RcppArmadillo) - interface to 'Armadillo' Templated Linear Algebra Library
+* [datapasta](https://github.com/MilesMcBain/datapasta) - tools to recreate tibble's for a reprex
 
 ## Data 
 These packages contain data sets to use as training data or toy examples.

@@ -48,6 +48,7 @@ These packages help you import data into R and save data.
     -   [RSQLite](https://github.com/rstats-db/RSQLite) - SQlite driver for DBI
     -   [bigrquery](https://github.com/rstats-db/bigrquery) - Google BigQuery driver for DBI
 -   [PivotalR](https://github.com/pivotalsoftware/PivotalR) - reads data from and interfaces with [Postgres](http://www.postgresql.org), [Greenplum](http://greenplum.org), and [HAWQ](http://hawq.incubator.apache.org)
+-   [janitor](https://github.com/sfirke/janitor) - tools for cleaning excel data and tables
 -   [dplyr](https://github.com/hadley/dplyr) - contains an interface to common databases
 -   [data.table](https://github.com/Rdatatable/data.table) - `fread()` for fast table reading
 -   [git2r](https://github.com/ropensci/git2r) - tools to access git repositories
@@ -62,6 +63,7 @@ These packages help you wrangle your data into a form that is easy to analyze in
 -   [dplyr](https://github.com/hadley/dplyr) - tools for joining multiple tables into a tidy data set
 -   [purrr](https://github.com/hadley/purrr) - tools for applying R functions to data structures, very useful when tidying
 -   [broom](http://varianceexplained.org/r/broom-intro/) - tools for tidying statistical models into data frames
+-   [sweep](https://business-science.github.io/sweep/) - tools for extending broom to time series forecasting
 -   [zoo](https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=r%20zoo) - data structures for time series data
 -   [PivotalR](https://github.com/pivotalsoftware/PivotalR) - R wrappers for in-database SQL operations (i.e. join, group by)
 
@@ -136,6 +138,10 @@ These packages help you transform your data into new types of data.
 -   [vtreat](https://github.com/WinVector/vtreat) - tools for pre-processing variables for predictive modeling
 -   [stringi](http://www.rexamine.com/resources/stringi/) - fast string processing facilities.
 -   [Matrix](http://matrix.r-forge.r-project.org/) - LAPACK methods for dense and sparse matrix operations
+-   [tidyquant](https://business-science.github.io/tidyquant/) - financial analysis for the tidyverse
+-   [timetk](https://business-science.github.io/timetk/) - tools to work with time series data
+-   [tibbletime](https://github.com/business-science/tibbletime) - time-aware tibbles
+
 
 Model/Infer
 -----------
@@ -182,6 +188,9 @@ These packages help you communicate the results of data science to your audience
 -   [yaml](https://github.com/viking/r-yaml) - Methods to convert R data to YAML and back
 -   [pander](http://rapporter.github.io/pander/) - renders R objects into Pandoc markdown.
 -   [configr](https://github.com/Miachol/configr) - Integrated and improved configuration file parser (json,ini,yaml,toml).
+-   [officer](https://github.com/davidgohel/officer) - create office documents from R
+-   [huxtable](https://hughjonesd.github.io/huxtable/) - create customized HTML and LaTeX tables with conditional formatting
+-   [flextable](https://davidgohel.github.io/flextable/) - create customized tables for reporting with Microsoft products
 
 Automate
 --------
@@ -227,6 +236,7 @@ These packages make it easier to program with the R language.
 -   [RJSONIO](https://github.com/duncantl/RJSONIO) - convert R objects to JSON notation
 -   [jsonlite](https://github.com/jeroenooms/jsonlite) - a fast JSON parser and generator for R
 -   [RcppArmadillo](https://github.com/RcppCore/RcppArmadillo) - interface to 'Armadillo' Templated Linear Algebra Library
+-   [datapasta](https://github.com/MilesMcBain/datapasta) - tools to recreate tibble's for a reprex
 
 Data
 ----
