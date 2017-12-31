@@ -63,6 +63,7 @@ These packages help you wrangle your data into a form that is easy to analyze in
 -   [dplyr](https://github.com/hadley/dplyr) - tools for joining multiple tables into a tidy data set
 -   [purrr](https://github.com/hadley/purrr) - tools for applying R functions to data structures, very useful when tidying
 -   [broom](http://varianceexplained.org/r/broom-intro/) - tools for tidying statistical models into data frames
+-   [sweep](https://business-science.github.io/sweep/) - tools for extending broom to time series forecasting
 -   [zoo](https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=r%20zoo) - data structures for time series data
 -   [PivotalR](https://github.com/pivotalsoftware/PivotalR) - R wrappers for in-database SQL operations (i.e. join, group by)
 
@@ -137,6 +138,10 @@ These packages help you transform your data into new types of data.
 -   [vtreat](https://github.com/WinVector/vtreat) - tools for pre-processing variables for predictive modeling
 -   [stringi](http://www.rexamine.com/resources/stringi/) - fast string processing facilities.
 -   [Matrix](http://matrix.r-forge.r-project.org/) - LAPACK methods for dense and sparse matrix operations
+-   [tidyquant](https://business-science.github.io/tidyquant/) - financial analysis for the tidyverse
+-   [timetk](https://business-science.github.io/timetk/) - tools to work with time series data
+-   [tibbletime](https://github.com/business-science/tibbletime) - time-aware tibbles
+
 
 Model/Infer
 -----------
@@ -184,6 +189,8 @@ These packages help you communicate the results of data science to your audience
 -   [pander](http://rapporter.github.io/pander/) - renders R objects into Pandoc markdown.
 -   [configr](https://github.com/Miachol/configr) - Integrated and improved configuration file parser (json,ini,yaml,toml).
 -   [officer](https://github.com/davidgohel/officer) - create office documents from R
+-   [huxtable](https://hughjonesd.github.io/huxtable/) - create customized HTML and LaTeX tables with conditional formatting
+-   [flextable](https://davidgohel.github.io/flextable/) - create customized tables for reporting with Microsoft products
 
 Automate
 --------
