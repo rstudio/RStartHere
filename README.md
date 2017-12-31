@@ -48,6 +48,7 @@ These packages help you import data into R and save data.
     -   [RSQLite](https://github.com/rstats-db/RSQLite) - SQlite driver for DBI
     -   [bigrquery](https://github.com/rstats-db/bigrquery) - Google BigQuery driver for DBI
 -   [PivotalR](https://github.com/pivotalsoftware/PivotalR) - reads data from and interfaces with [Postgres](http://www.postgresql.org), [Greenplum](http://greenplum.org), and [HAWQ](http://hawq.incubator.apache.org)
+-   [janitor](https://github.com/sfirke/janitor) - tools for cleaning excel data and tables
 -   [dplyr](https://github.com/hadley/dplyr) - contains an interface to common databases
 -   [data.table](https://github.com/Rdatatable/data.table) - `fread()` for fast table reading
 -   [git2r](https://github.com/ropensci/git2r) - tools to access git repositories
@@ -182,6 +183,7 @@ These packages help you communicate the results of data science to your audience
 -   [yaml](https://github.com/viking/r-yaml) - Methods to convert R data to YAML and back
 -   [pander](http://rapporter.github.io/pander/) - renders R objects into Pandoc markdown.
 -   [configr](https://github.com/Miachol/configr) - Integrated and improved configuration file parser (json,ini,yaml,toml).
+-   [officer](https://github.com/davidgohel/officer) - create office documents from R
 
 Automate
 --------
@@ -227,6 +229,7 @@ These packages make it easier to program with the R language.
 -   [RJSONIO](https://github.com/duncantl/RJSONIO) - convert R objects to JSON notation
 -   [jsonlite](https://github.com/jeroenooms/jsonlite) - a fast JSON parser and generator for R
 -   [RcppArmadillo](https://github.com/RcppCore/RcppArmadillo) - interface to 'Armadillo' Templated Linear Algebra Library
+-   [datapasta](https://github.com/MilesMcBain/datapasta) - tools to recreate tibble's for a reprex
 
 Data
 ----
