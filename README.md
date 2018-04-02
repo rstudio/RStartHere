@@ -17,7 +17,7 @@ Each data science project is different, but each follows the same general steps.
 2.  [Tidy](#tidy) it
 3.  Understand your data by iteratively
     1.  [visualizing](#visualize)
-    2.  [tranforming](#transform) and
+    2.  [transforming](#transform) and
     3.  [modeling](#modelinfer) your data
 
 4.  [Infer](#infer) how your understanding applies to other data sets (*including future data, i.e. predictions*)
