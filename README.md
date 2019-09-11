@@ -194,6 +194,7 @@ These packages help you create data science products that automate your analyses
     -   [shinyAce](http://trestletech.github.io/shinyAce/) - Ace text editor for Shiny apps
     -   [shinyjs](https://github.com/daattali/shinyjs/blob/master/README.md) - adds common JavaScript operations to Shiny apps
     -   [miniUI](https://github.com/rstudio/miniUI) - UI elements for Shiny gadgets, interactive apps integrated into the R commandline workflow
+    -   [golem](https://github.com/ThinkR-open/golem) - A Framework for Building Robust Shiny Apps 
     -   [shinyapps.io](https://www.shinyapps.io/) - hosting service for Shiny apps
     -   [Shiny Server Open Source](https://www.rstudio.com/products/shiny/shiny-server/) - OS server to host Shiny apps
     -   [Shiny Server Pro](https://www.rstudio.com/products/shiny/shiny-server/) - server to host Shiny apps enhanced with features for business enterprises
