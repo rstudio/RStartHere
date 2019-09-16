@@ -175,7 +175,8 @@ These packages help you communicate the results of data science to your audience
 * [yaml](https://github.com/viking/r-yaml) - Methods to convert R data to YAML and back
 * [pander](http://rapporter.github.io/pander/) - renders R objects into Pandoc markdown.
 * [configr](https://github.com/Miachol/configr) - Integrated and improved configuration file parser (json,ini,yaml,toml).
-
+* [officer](https://davidgohel.github.io/officer/) - creates rich, template-based MS Word and MS PowerPoint documents directly from R (Office is not necessary).
+* [flextable](https://davidgohel.github.io/flextable/) - creates advanced, highly customizable tables, supporting cell merge, multi-level headers and conditional formatting, ready to embed in MS Word and MS PowerPoint documents via the officer package.
 
 
 ## Automate
