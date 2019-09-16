@@ -142,7 +142,11 @@ These packages help you build models and make inferences. Often the same package
 * [mvtnorm](http://mvtnorm.r-forge.r-project.org/) - Multivariate Normal and t Distributions
 * [MatrixModels](http://matrix.r-forge.r-project.org/) - Modelling with Sparse And Dense Matrices
 * [SparseM](http://www.econ.uiuc.edu/~roger/research/sparse/sparse.html) - linear algebra for sparse matrices
-* [lme4](https://github.com/lme4/lme4) - Linear Mixed-Effects Models using Eigen C++ library
+* [lme4](https://github.com/lme4/lme4) - Generalized Linear Mixed-Effects Models using Eigen C++ library
+* [nlme](https://cran.r-project.org/package=nlme) - Linear and Nonlinear Mixed-Effects Models, allowing the user to specify the residual covariance structure (necessary in longitudinal analyses).
+* [MASS::glmmPQL](https://cran.r-project.org/web/packages/MASS/index.html) - Generalized Linear Mixed-Effects Models using Penalized Quasi-Likelihood, allowing the user to specify the residual covariance structure (necessary in longitudinal analyses).
+* [glmmTMB](https://cran.r-project.org/package=glmmTMB) - Generalized Linear Mixed-Effects Models using automatic differentiation engine, allowing the user to specify the residual covariance structure (necessary in longitudinal analyses).
+* [MCMCglmm](https://cran.r-project.org/package=MCMCglmm) - Generalized Linear Mixed-Effects Models in the Bayesian way (MCMC), allowing the user to specify the residual covariance structure.
 * [broom](http://varianceexplained.org/r/broom-intro/) - tools for tidying statistical models into data frames
 * [caret](http://topepo.github.io/caret/index.html) - tools for Classification And REgression Training
 * [glmnet](https://web.stanford.edu/~hastie/glmnet/glmnet_alpha.html) - generalized linear models via penalized maximum likelihood
